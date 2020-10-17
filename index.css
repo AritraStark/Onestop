@@ -59,3 +59,54 @@ body{
     align-items: center;
     flex-direction: row;
 }
+
+.top{
+    background-image: url('./bg-car.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 5rem;
+}
+
+.top button{
+    border: none;
+    padding: 1rem 2rem;
+    color: #007CBA;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.t-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    padding: 5rem 0;
+}
+
+.t-2-1{
+    color: #007CBA;
+    background-color: white;
+    padding: 2rem 1rem;
+    transition: transform .2s;
+    box-shadow: 0px 0px 10px #D5D5D5;
+}
+
+.t-2-1 h3{
+    margin: 0.1rem;
+}
+.t-2-1 h4{
+    margin: 0.8rem;
+}
+
+.cim{
+    margin-top: 1rem;
+}
+
+.t-2-1:hover{
+    transform: scale(1.1);
+}
