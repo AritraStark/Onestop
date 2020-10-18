@@ -24,7 +24,7 @@ body{
     align-items: center;
 }
 
-.h2-2 button{
+.h2-2 button, .ad-1-1 button, .about button, .sl button, .cn button{
     background-color: #1C73A9;
     color: white;
     border: none;
@@ -69,10 +69,10 @@ body{
     flex-direction: column;
     text-align: center;
     color: white;
-    padding: 5rem;
+    padding: 5rem 5rem 3rem 5rem;
 }
 
-.top button{
+.top button, .conc button{
     border: none;
     padding: 1rem 2rem;
     color: #007CBA;
@@ -109,4 +109,204 @@ body{
 
 .t-2-1:hover{
     transform: scale(1.1);
+}
+
+.ad{
+    padding: 0 4rem;
+}
+
+.ad-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+.ad-1-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #707070;
+    padding: 1rem;
+}
+
+.con{
+    padding: 2rem 4rem;
+}
+
+.conc{
+    background-image: url('./con-bg.png');
+    background-size: 100% 100%;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conc h3{
+    margin: 0.1rem;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2fr;
+    padding: 4rem;
+}
+
+.about img{
+    height: 23rem;
+    width: 38rem;
+}
+
+.ab-1{
+    padding: 0 1rem;
+}
+
+.ab-1 p{
+    color: #707070;
+    padding-bottom: 1rem;
+}
+
+.ab-2{
+    padding: 2rem;
+}
+
+.spon{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spon img{
+    height: 5rem;
+    width: 75rem;
+}
+
+.pl{
+    margin: 8rem 4rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #007CBA;
+    color: white;
+}
+
+.pl img{
+    height: 38rem;
+    width: 54rem;
+}
+
+.pl-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li:before {
+    content: '✓';
+    padding-right:1rem;
+  }
+
+
+.sl{
+      margin: 2rem 4rem;
+      background-image: url('./sales.png');
+      background-size: 100% 100%;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding: 2rem;
+}
+
+.sl-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sl-1 p{
+    color: #707070;
+}
+
+.sl-bt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.cn{
+    background-image: url('./contact.png');
+    background-size: 100% 100%;
+    padding: 2rem;
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cn-1{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8rem;
+}
+
+.cn-1 input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #707070;
+    margin: 1.5rem 0;
+}
+
+.nl{
+    background-image: url('./newsletter.png');
+    background-size: 100% 100%;
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.nl-1{
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+}
+
+.nl input{
+    border: none;
+    padding: 0.5rem;
+}
+
+.nl button{
+    border: none;
+    color: white;
+    background-color: #1C73A9;
+    padding: 0.5rem;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    padding: 2rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 17rem;
+}
+
+.f-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: smaller;
+}
+
+.foot a{
+ color: #1C73A9;
 }
