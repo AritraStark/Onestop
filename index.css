@@ -310,3 +310,89 @@ ul {
 .foot a{
  color: #1C73A9;
 }
+
+@media only screen and (max-width:600px){
+    .head{
+        grid-template-columns: 1fr;
+        display: block;
+    }
+
+    .h2-1{
+        padding: 1rem;
+    }
+
+    .top{
+        padding: 1rem;
+        background-size: auto;
+    }
+    .t-2{
+        grid-template-columns: 1fr 1fr ;
+        padding: 4rem 0;
+    }
+    .ad-1{
+        grid-template-columns: 1fr;
+    }
+
+    .h2-2{
+        display: none;
+    }
+
+    .ad{
+        padding: 0 2rem;
+    }
+    .about{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .about img{
+        height: 15rem;
+        width: 17rem;
+    }
+    .spon img{
+        height: 2rem;
+        width: 20rem;
+    }
+    .pl{
+        margin: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .pl img{
+        height: 13rem;
+        width: 18rem;
+    }
+    .pl-2{
+        margin-top: 0;
+    }
+    .sl{
+        background-size: auto;
+        margin: 1rem;
+    }
+    .sl-1{
+        grid-template-rows: 1fr;
+    }
+    .sl-1-2{
+        display: none;
+    }
+    .cn{
+        margin: 1rem;
+        grid-template-columns: 1fr;
+        background-size: auto;
+    }
+    .cn-1{
+        padding: 1rem;
+    }
+    .nl{
+        grid-template-columns: 1fr;
+    }
+    .nl-1{
+        padding-left: 0;
+    }
+    .foot{
+        padding: 2rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .f-1{
+        text-align: center;
+    }
+}
